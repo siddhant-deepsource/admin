@@ -1,0 +1,19 @@
+version = 1
+
+exclude_patterns = [
+    ".vscode/**",
+    "config/*.config.*.js",
+    "lib/**",
+    "public/**"
+]
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+  [analyzers.meta]
+  environment = [
+    "nodejs",
+    "jest"
+  ]
+  plugins = ["react"]
