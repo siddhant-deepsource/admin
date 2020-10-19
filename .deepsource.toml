@@ -17,3 +17,4 @@ enabled = true
     "jest"
   ]
   plugins = ["react"]
+  module_system = "es-modules"
