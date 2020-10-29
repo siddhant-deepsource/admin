@@ -182,7 +182,7 @@ class AddCampaignOrRoleForm extends React.Component {
         </Form.Item>}
         {candidate && <Form.Item label="Status">
           {getFieldDecorator('status')
-          (<Select >
+          (<Select>
               {CAMPAIGN_STATUS_OPTIONS.map(option => {
                   return (
                       <Option 
